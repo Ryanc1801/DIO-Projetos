@@ -13,4 +13,6 @@ def color(color="Não tem cor preferida"):
         person = 'pessoa com uma personalidade mais fiel, inocente, pura'
     elif color == 'verde':
         person = 'pessoa com uma personalidade mais receptiva, amigável, prestativa, doce'
+    else:
+        person = ''
     return person
